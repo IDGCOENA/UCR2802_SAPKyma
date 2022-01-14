@@ -21,8 +21,12 @@ Docker Installation &  Docker HUb Set up
 1.  Sign up for Docker HUb - https://hub.docker.com/signup 
 2.  Install Docker in your Desktop by following the Guides Installation - https://www.docker.com/get-started
 3.  Login to docker with the Docker ID created in Step1 [Docker Hub Setup]
-4. 
- 
+4.  Test your installation by running  "docker image --help" from your Command Prompt and it should display help options.
+
+Deployment
+===========
+1. Clone or Download the repo to your local desktop. 
+2. Remove the 
  
  
  
