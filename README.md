@@ -27,7 +27,23 @@ Deployment
 ===========
 1. Clone or Download the repo to your local desktop. 
 2. Remove the UCR2802.ipynb file . 
-3. You shuold be having 
+3. Execute docker build  <YourDockerID>/<AnyImagename>
+4. It shuold succesfully build with dependencies mentioned in Dockerfile.
+5. Execute  docker push  <YourDockerID>/<Imagename>   
+ 
+Kyma Deployment
+ =============
+ 1. Set up Kyma as mentioned in Pre-requisite in the mission.
+ 2. Go to Kyma Dashboard. 
+ 3. Click on Default Namespace
+ 4. Select Deploy New Workload and upload yaml downloaded from this repo.
+ 5. Select API Rule from  Dashboard and click Create.
+ 6. Provide a name , hostname and select the service "main(port:5000)" from dropdown.
+ 7. Set the Access Strategy as /.* and Allow.
+ 8. Save. And you will see the host URL on screen now .
+ 9. Click on the host URL and you should see the message "Survey response has been succesfully replicated into HANA Cloud"
+ 10. Congrats!! 
+ 
  
  
  
