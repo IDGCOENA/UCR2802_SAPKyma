@@ -1,4 +1,4 @@
-Pre-Requisites:
+**Pre-Requisites:**
 In order to execute the python script, please work with Support team for this mission [https://discovery-center.cloud.sap/protected/index.html#/missiondetail/3782/3823/]
 to get Qualtrics API Token, Survey ID . We will also provide the anonymous Survey Link or link for specific users accordingto your request. IF the survey has to be sent for 
 specific users, then we would need the E-Mail IDs to trigger the survey distribution.
@@ -17,22 +17,21 @@ while providing free access to computing resources. PLease follow these steps.
  IF there are no errors, then you will see the survey data replicated in your HANA Cloud Schema in the tables 
  EMPLOYEE_COMFORT_SURVEY_QUESTIONS ,  EMPLOYEE_COMFORT_SURVEY_USERINFO. 
  
-Docker Installation &  Docker HUb Set up 
+**Docker Installation &  Docker HUb Set up **
 1.  Sign up for Docker HUb - https://hub.docker.com/signup 
 2.  Install Docker in your Desktop by following the Guides Installation - https://www.docker.com/get-started
 3.  Login to docker with the Docker ID created in Step1 [Docker Hub Setup]
 4.  Test your installation by running  "docker image --help" from your Command Prompt and it should display help options.
 
-Deployment
-===========
+**Deployment**
 1. Clone or Download the repo to your local desktop. 
 2. Remove the UCR2802.ipynb file . 
 3. Execute docker build  <YourDockerID>/<AnyImagename>
 4. It shuold succesfully build with dependencies mentioned in Dockerfile.
 5. Execute  docker push  <YourDockerID>/<Imagename>   
  
-Kyma Deployment
- =============
+**Kyma Deployment**
+
  1. Set up Kyma as mentioned in Pre-requisite in the mission.
  2. Go to Kyma Dashboard. 
  3. Click on Default Namespace
