@@ -26,7 +26,8 @@ Docker Installation &  Docker HUb Set up
 Deployment
 ===========
 1. Clone or Download the repo to your local desktop. 
-2. Remove the 
+2. Remove the UCR2802.ipynb file . 
+3. You shuold be having 
  
  
  
