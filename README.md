@@ -17,7 +17,11 @@ while providing free access to computing resources. PLease follow these steps.
  IF there are no errors, then you will see the survey data replicated in your HANA Cloud Schema in the tables 
  EMPLOYEE_COMFORT_SURVEY_QUESTIONS ,  EMPLOYEE_COMFORT_SURVEY_USERINFO. 
  
- 
+Docker Installation &  Docker HUb Set up 
+1.  Sign up for Docker HUb - https://hub.docker.com/signup 
+2.  Install Docker in your Desktop by following the Guides Installation - https://www.docker.com/get-started
+3.  Login to docker with the Docker ID created in Step1 [Docker Hub Setup]
+4. 
  
  
  
