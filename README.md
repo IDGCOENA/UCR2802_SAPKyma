@@ -30,9 +30,9 @@ while providing free access to computing resources. PLease follow these steps.
 3. Adjust the main.py with parameters as mentioned in  Pre-Requisites Step 2 - 4. 
 4. Adjust the deployment.yaml Line 31 with
    - image: yourdockerid/imagename
-5. Execute docker build  <YourDockerID>/<AnyImagename>
+5. Execute docker build  YourDockerID/AnyImagename
 6. It shuold succesfully build with dependencies mentioned in Dockerfile.
-7. Execute  docker push  <YourDockerID>/<Imagename>   
+7. Execute  docker push  YourDockerID/Imagename   
  
 **Kyma Deployment**
 
