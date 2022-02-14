@@ -27,7 +27,8 @@ while providing free access to computing resources. PLease follow these steps.
 **Deployment**
 1. Clone or Download the repo to your local desktop. 
 2. Remove the UCR2802.ipynb file . 
-3. Adjust the deployment.yaml f
+3. Adjust the deployment.yaml Line 31 with
+   - image: <dockerid>/<imagename>
 4. Execute docker build  <YourDockerID>/<AnyImagename>
 5. It shuold succesfully build with dependencies mentioned in Dockerfile.
 6. Execute  docker push  <YourDockerID>/<Imagename>   
