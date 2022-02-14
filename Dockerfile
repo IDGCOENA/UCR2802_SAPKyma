@@ -4,6 +4,6 @@ RUN pip install flask
 RUN pip install flask_restful
 RUN pip install requests
 RUN pip install hdbcli
-EXPOSE 5000
+EXPOSE 5050
 CMD [ "python", "./main.py"]
 
